@@ -7,11 +7,11 @@ const rootDir = dirname(fileURLToPath(import.meta.url));
 export default {
   root: 'src',
   build: {
-    outDir: '../dist'
+    outDir: '../dist',
   },
   plugins: [
     handlebars({
       partialDirectory: resolve(rootDir, 'src/partials'),
     }),
-  ]
-}
+  ],
+};
