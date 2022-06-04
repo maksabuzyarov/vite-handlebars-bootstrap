@@ -6,10 +6,15 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "lint-js": "eslint .",
+    "lint-js:fix": "eslint . --fix",
     "lint-styles": "stylelint \"**/*.{css,scss,vue}\"",
     "lint-styles:fix": "stylelint \"**/*.{css,scss,vue}\" --fix"
   },
   "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
     "stylelint": "^14.8.5",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^25.0.0",
