@@ -5,15 +5,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint-styles": "stylelint \"**/*.{css,scss,vue}\"",
+    "lint-styles:fix": "stylelint \"**/*.{css,scss,vue}\" --fix"
   },
   "devDependencies": {
+    "stylelint": "^14.8.5",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
     "vite": "^2.9.9"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
     "current-device": "^0.10.2",
+    "postcss-scss": "^4.0.4",
     "sass": "^1.52.1",
+    "stylelint-scss": "^4.2.0",
     "svg4everybody": "^2.1.9",
     "vite-plugin-handlebars": "^1.6.0"
   }
