@@ -9,7 +9,8 @@
     "lint-js": "eslint .",
     "lint-js:fix": "eslint . --fix",
     "lint-styles": "stylelint \"**/*.{css,scss,vue}\"",
-    "lint-styles:fix": "stylelint \"**/*.{css,scss,vue}\" --fix"
+    "lint-styles:fix": "stylelint \"**/*.{css,scss,vue}\" --fix",
+    "changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "devDependencies": {
     "eslint": "^8.17.0",
