@@ -1,7 +1,7 @@
 {
   "name": "vite-handlebars-bootstrap",
   "private": true,
-  "version": "0.3.1",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,7 +10,10 @@
     "lint-js:fix": "eslint . --fix",
     "lint-styles": "stylelint \"**/*.{css,scss,vue}\"",
     "lint-styles:fix": "stylelint \"**/*.{css,scss,vue}\" --fix",
-    "changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s && git add CHANGELOG.md"
+    "release:first": "standard-version --first-release",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch"
   },
   "devDependencies": {
     "eslint": "^8.17.0",
@@ -21,6 +24,7 @@
     "handlebars-layouts": "^3.1.4",
     "postcss-scss": "^4.0.4",
     "sass": "^1.52.1",
+    "standard-version": "^9.5.0",
     "stylelint": "^14.8.5",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "^3.0.0",
