@@ -1,1 +1,10 @@
+@import 'variables';
+
+// vendors
 @import 'bootstrap/scss/bootstrap';
+
+// base styles (custom reboots, body, etc.)
+@import 'base';
+
+// helpers
+@import 'components/header';

@@ -11,6 +11,8 @@ package-lock.json
 
 node_modules
 dist
+dist.zip
+dist.7z
 dist-ssr
 *.local
 
